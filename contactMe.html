@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8"/>
+        <meta name = "viewport" content="width=device-width, initial scale=1.0"/>
+        <title id="top">Asher's Website!!</title>
+    </head>
+    <body bgcolor="green">
+        <table>
+            <td>
+                <form method="post" action="mailto:asher.thomas@du.edu" enctype="text/plain">
+                    <div>
+                        <label for="Name">Name:</label><br>
+                        <input type="text"
+                            id="name" 
+                            name="name" 
+                            required>
+                    </div>
+                    <div>
+                        <label for="email">Email:</label><br>
+                        <input type="text" 
+                            id="email" 
+                            name="mail" 
+                            required
+                            pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"> <!-- logic taken directly from w3schools.com/tags/at_input_patern.asp-->
+                    </div>
+                    <div>
+                        <label for="comment">Comment:</label><br>
+                        <textarea type="text" 
+                            name="comment"
+                            cols="22"
+                            rows="10"
+                            required
+                            ></textarea>
+                    </div>
+                    <br>
+                    <input type="submit" value="Send">
+                    <input type="reset" value = "Reset">
+                </form>
+            </td>
+            <td>
+                <figure>
+                    <img src="./photos/perfect.jpg" width="250" alt="Jaw droppingly beautiful man"><br> <!--do u agree with the alt text-->
+                    <text>Click <a href="./awesomeness.html">here</a> for more (only way to leave the page)</text>
+                </figure>
+            </td>
+        </table>
+    </body>
+</html>
